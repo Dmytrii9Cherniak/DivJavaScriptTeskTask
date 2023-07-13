@@ -21,7 +21,7 @@ const handleMove = (event) => {
     }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
     const containerEl = document.querySelector('.container');
     for (let i = 0; i < 100; i++) {
         const div = document.createElement('div');
